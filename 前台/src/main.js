@@ -9,13 +9,13 @@ import Header from '@/components/header';
 import Footer from '@/components/footer';
 import TypeNav from '@/components/typeNav';
 import Pagination from '@/components/pagination';
-import HintButton from '@/components/hintButton'
+// import HintButton from '@/components/hintButton'
 
 Vue.component(Header.name, Header);
 Vue.component(Footer.name, Footer);
 Vue.component(TypeNav.name, TypeNav)
 Vue.component(Pagination.name, Pagination)
-Vue.component(HintButton.name, HintButton);
+// Vue.component(HintButton.name, HintButton);
 /*
 底下的写法目前是全部引入
 完整引入element-ui组件库,可以使用任意UI组件【都是全局组件】
